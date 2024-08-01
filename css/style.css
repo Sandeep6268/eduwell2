@@ -1,0 +1,1012 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.headerimg{
+  background: url(../images/header-bg.png) no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 0px;
+}
+.headerimg .logo{
+  background: url(../images/templatemo-eduwell.png) no-repeat;
+  background-size: cover;
+  width: 15vw;
+  height: 9vh;
+  position: relative;
+  top: 15px;
+  left: 100px;
+}
+.headerimg .navbar{
+  display: flex;
+  margin: 3vw 4vw;
+  gap: 3vw;
+  font-size: 1.3em;
+}
+.headerimg .navbar h5:hover{
+  scale: 1.4;
+}
+.headerimg i{
+  display: none;
+}
+.content-1{
+  width: 25vw;
+  position:relative;
+  top: 5vw;
+  left: 8vw;
+  line-height: 4vw;
+  font-size: 1.4rem;
+}
+.span-1{
+  color: rgb(230,91,230);
+}
+.spanone{
+  color: rgb(230,91,230);
+}
+.btn-1{
+border: none;
+background: linear-gradient(to left ,rgb(230, 91, 230),orange );
+padding: 1vw;
+color: white;
+border-radius: 5px;
+}
+.btn-1:hover{
+  scale: 1.3;
+}
+.girlimg{
+  background: url(../images/banner-right-image.png) no-repeat;
+  background-size: contain;
+  width: 22vw;
+  height: 22vw;
+  position: relative;
+  top: -15vw;
+  left: 70vw;
+}
+.services{
+  width: 30vw;
+  position:relative;
+  top: -10vw;
+  left: 35vw;
+  font-size: 1.4rem;
+  text-align: center; 
+}
+.cards{
+  position: relative;
+  font-size: 1.1rem;
+  top: 0px;
+  left: 2vw;
+  width: 95vw;
+  height: 20vw;
+  display: flex;
+  justify-content: space-evenly; 
+  
+}
+.cards .cardone{
+  text-align: center;
+  width: 28vw; 
+  height: 20vw; 
+}
+.cards .cardone:hover,.cardtwo:hover,.cardthree:hover,.cardfour:hover{
+  box-shadow: 0px 0px 10px rgb(230,91,230);
+}
+.cards .cardone .cardoneimg{
+  background: url(../images/service-icon-04.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 12vw;
+  height: 10vw;
+  position: relative;
+  left: 70px;
+}
+.cards .cardtwo{
+  text-align: center;
+  width: 28vw;
+  height: 20vw;
+}
+.cards .cardtwo .cardtwoimg{
+  background: url(../images/service-icon-03.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 12vw;
+  height: 10vw;
+  position: relative;
+  left: 70px;
+}
+.cards .cardthree{
+  text-align: center;
+  width: 28vw;
+  height: 20vw;
+}
+.cards .cardthree .cardthreeimg{
+  background: url(../images/service-icon-01.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 12vw;
+  height: 10vw;
+  position: relative;
+  left: 70px;
+}
+.cards .cardfour{
+  text-align: center;
+  width: 28vw;
+  height: 20vw;
+}
+.cards .cardfour .cardfourimg{
+  background: url(../images/service-icon-02.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 12vw;
+  height: 10vw;
+  position: relative;
+  left: 70px;
+}
+ .teengola{
+  display: flex;
+  width: 6vw;
+  height: 1vw;
+  flex-flow: space-around nowrap;
+  position: relative;
+  top: 1vw;
+  left: 48vw;
+}
+.teengola1{
+background:rgb(230, 91, 230);
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.teengola2{
+background:gray;
+position: relative;
+left: 10px;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+.teengola3{
+background:gray;
+position: relative;
+left: 20px;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+
+.dogola{
+  width: 28vw;
+  height: 24vw;
+  position: relative;
+  top: 5vw;
+  left: 1vw;
+  float: left;
+}
+.dogola .pehlagolaimg{
+  background: url(../images/our-courses-left-dec.png) no-repeat;
+  background-size: contain;
+  height: 24vw;
+
+}
+.dogolatwo{
+  width: 28vw;
+  height: 24vw;
+  position: relative;
+  top: 5vw;
+  left: 69vw;
+}
+.dogolatwo .dusragolaimg{
+  background: url(../images/our-courses-right-dec.png) no-repeat;
+  background-size: contain;
+  height: 24vw;
+}
+.contentpagetwo{
+  text-align: center;
+  font-size: 1.4rem;
+  
+}
+
+.coursedisc{
+  color: black;
+  position: relative;
+  width: 80vw;
+  height: 18vw;
+  top: 5vw;
+  left: 7vw;
+  float: left;
+}
+.coursedisc h3{
+   display: inline-block;
+   border:5px groove rgba(230, 91, 230,0.5);
+   border-radius: 5px;
+   width: 17vw;
+   height:1vw;
+   padding: 20px;
+   padding-top: 10px;
+   text-align: center;
+}
+.needcolor:hover{
+   color: rgb(230, 91, 230);
+   display: inline-block;
+   border:5px groove rgba(230, 91, 230,0.8);
+   scale: 1.3;
+}
+
+.courseimg {
+  width: 20vw;
+  height: 18vw;
+  position: relative;
+  top: 4vw;
+  left: 32vw;
+}
+.courseimg .courseimgg{
+  background: url(../images/courses-01.jpg) no-repeat;
+  background-size: cover;
+  height: 18vw;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.courseimg .courseimgg:hover{
+  scale: 1.2;
+}
+
+
+.price{
+  width: 6vw;
+  text-align: center;
+  height: 4vw;
+  position: relative;
+  top: -13vw;
+  left: 33vw;
+}
+.price .price1{
+  color: white;
+  padding: 15px;
+  background: linear-gradient(to bottom ,rgb(230, 91, 230),orange );
+}
+
+
+.mindisc .spanthree{
+  color: cyan;
+}
+.mindisc{
+  color: black;
+  position: relative;
+  font-size: 1.1rem;
+  top: -18vw;
+  left: 57vw;
+  line-height: 2.2vw;
+  width: 38.5vw;
+  height: 1vw;
+}
+.mindisc:hover{
+  box-shadow: 0px 0px 10px rgb(230,91,230);
+
+}
+.headings h5{
+  display: inline-block;
+  width: 85px;
+  padding-left: 10px;
+}
+.headings .headingek{
+  border-right:3px solid black ;
+}
+.headings .headingdo{
+  border-right:3px solid black ;
+}
+.headings .headingteen{
+  display: inline-block;
+  width: 100px;
+  padding-left: 20px;
+}
+.headings .headingchar{
+  display: block;
+  color: rgb(230, 91, 230);
+  text-decoration: underline;
+  padding-left: 0px;
+  width: 120px;
+}
+.headings .headingchar:hover{
+  scale: 1.1;
+}
+
+.gradientimg{
+  height: 48vw;
+  width: 98vw;
+  position: relative;
+}
+.gradientimg .gradiimg{
+  background: url(../images/cta-bg.png) no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+  height: 48vw;
+}
+.imgingradient{
+  height: 60vh;
+  width: 30vw;
+  position: relative;
+  top: -40vw;
+  left: 15vw;
+}
+.imgingradient .imgten{
+  background: url(../images/cta-left-image.png) no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 30vw;
+}
+.imgingradient .imgten:hover{
+  scale: 1.2;
+}
+
+.gradientimg .mincontentone{
+  color: white;
+  width: 48vw;
+  position: absolute;
+  right: 190px;
+  left: 50vw;
+  top: 13vw;
+  line-height: 8vh;
+  font-size: 1.2rem;
+} 
+.gradientimg .mincontentone:hover{
+  box-shadow: 0px 0px 10px black;
+  
+}
+
+.gradientimg .mincontentone .btn2{
+  border: 0px;
+  padding: 15px;
+  background:white;
+  color: rgb(230, 91, 230);
+} 
+.gradientimg .mincontentone .btn2:hover{
+  scale: 1.1;
+}
+
+.thirdpageimg{
+  height: 20vw;
+  width: 30vw;
+  position: relative;
+  top: 1vw;
+}
+.thirdpageimg .testimg{
+ background: url(../images/testimonials-left-dec.png) no-repeat;
+ background-size: cover;
+ height: 20vw;
+ width: 30vw;
+}
+.thirdpage{
+  font-size: 1.4rem;
+  position: relative;
+  text-align: center;
+  left: 30vw;
+  top: -5vw;
+  width: 40vw;
+}
+
+.teencontainer{
+  width: 98vw;
+  height: 12vw;
+  font-size: 1.2rem;
+  position: relative;
+  top: 1vw;
+  left: 0vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.teencontainer .containerone{
+  color: black;
+  width: 28vw;
+  height: 10vw;
+  line-height: 2.5vw;
+  padding-left: 10px;
+  box-shadow: 0px 0px 3px rgb(240, 59, 204);
+}
+.teencontainer .containerone:hover,.containertwo:hover,.containerthree:hover{
+  scale: 1.1;
+}
+
+.teencontainer .containerone .quoteimg1{
+  background: url(../images/quote.png) no-repeat;
+  background-size: contain;
+  height: 5vw;
+  width: 5vw;
+  position: relative;
+  top: -5vw;
+  left: 22vw;
+}
+.teencontainer .containertwo{
+  color: black;
+  width: 28vw;
+  height: 10vw;
+  line-height: 2.5vw;
+  padding-left: 10px;
+  box-shadow: 0px 0px 3px rgb(240, 59, 204);
+  
+}
+.teencontainer .containertwo .quoteimg2{
+  background: url(../images/quote.png) no-repeat;
+  background-size: contain;
+  height: 5vw;
+  width: 5vw;
+  position: relative;
+  top: -5vw;
+  left: 22vw;
+}
+.teencontainer .containerthree{
+  color: black;
+  width: 28vw;
+  height: 10vw;
+  line-height: 2.5vw;
+  position: relative;
+  padding-left: 10px;
+  box-shadow: 0px 0px 3px rgb(240, 59, 204);
+  
+}
+.teencontainer .containerthree .quoteimg3{
+  background: url(../images/quote.png) no-repeat;
+  background-size: contain;
+  height: 5vw;
+  width: 5vw;
+  position: relative;
+  top: -5vw;
+  left: 22vw;
+}
+
+.teengolamain{
+  display: flex;
+  flex-flow: space-around nowrap;
+  position: relative;
+  top: 1.5vw;
+  width: 5vw;
+  height: 1vw;
+  left: 48vw;
+}
+.teengolaek{
+  background:gray;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.teengolado{
+  
+  background:rgb(230, 91, 230);
+  position: relative;
+  left: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.teengolateen{
+  background:gray;
+  position: relative;
+  left: 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+} 
+.thirdpageimgtwo{
+  height: 20vw;
+  display: block;
+  position: relative;
+  left: 68.5vw;
+  top: -5vw;
+  width: 30vw;
+}
+.thirdpageimgtwo .testimgtwo{
+   background: url(../images/testimonials-right-dec.png) no-repeat;
+   background-size: cover;
+   height: 20vw;
+   width: 30vw;
+}
+
+.footerimg{
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  top: 2vw;
+  left: -2vw;
+  float: left;
+}
+.footerimg .footerleftimg{
+  background: url(../images/footer-left-dec.png) no-repeat center;
+  background-size: contain;
+  height: 25vw;
+  width: 25vw;
+  position: relative;
+  left: -20px;
+}
+.maps{
+  position: relative;
+  top: -3vw;
+  width: 50vw;
+  height: 30vw;
+  left: -12vw;
+  float: left;
+}
+.maps iframe{
+  width: 50vw;
+  height: 30vw;
+  border-radius: 15px;
+}
+.maps iframe:hover{
+  box-shadow: 0px 0px 10px rgb(240, 59, 204);
+}
+.footer{
+  height: 20vw;
+  position: relative;
+  top: -24vw;
+  bottom: 0px;
+  float: left;
+}
+.footer .footerlastimg{
+  background: url(../images/footer-bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 98vw;
+  height: 45vw;
+}
+.lastsepehle{
+  height: -30vw;
+  width: 33vw;
+}
+.lastsepehle .lastdiv{
+  width: 33vw;
+  height: 47vw;
+  background: white;
+  position: relative;
+  top: 0vw;
+  left: 60vw;
+  border-radius: 15px;    
+}
+.lastsepehle .lastdiv:hover{
+  box-shadow: 0px 0px 10px black;
+}
+.lastsepehle .lastdiv .littlecontonelast{
+  color: black;
+  font-size: 0.9rem;
+  line-height: 3vw;
+  position: relative;
+  height: 0vw;
+  left: 2vw;
+  top: -48vw;
+  float: left;
+}
+.lastsepehle .lastdiv .littlecontone .headingfsone h1{
+  font-weight: 1000;
+}
+.lastsepehle .lastdiv .spanone{
+  color: rgb(230,91,230);
+}
+.forminp{
+  position: relative;
+  left: 30px;
+  top: -35vw;
+  line-height: 6vw;
+}
+.forminp input{
+  border: none;
+  background: rgb(234, 242, 244);
+  width: 350px;
+  height: 40px
+}
+.forminp .specinp{
+  padding-left: 5px;
+  height: 40px;  
+  padding-bottom: 100px;
+}
+.forminp .btnlast{
+  border: none;
+  background: linear-gradient(to left ,rgb(230, 91, 230),orange );
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  position: relative;
+  left: 205px;
+  top: 20px;
+}
+.forminp .btnlast:hover{
+  scale: 1.2;
+}
+.icons {
+  position: relative;
+  top: -9vw;
+  left: 10vw;
+  width: 45vw;
+  font-size: 16px;
+  height: 1vw;
+  display: flex;
+  justify-content: space-around;
+}
+.icons .icon-1:hover,.icon-2:hover,.icon-3:hover,.icon-4:hover,.icon-5:hover{
+  scale: 1.1;
+}
+.icons .icon-1{
+  font-size: 4em;
+  border-radius: 50%;
+}
+.icons .icon-2{
+  font-size: 4em;
+  border-radius: 50%;
+}
+.icons .icon-3{
+  font-size: 4em;
+  border-radius: 50%;
+}
+.icons .icon-4{
+  font-size: 4em;
+  border-radius: 50%;
+}
+.icons .icon-5{
+  font-size: 4em;
+  border-radius: 50%;
+} 
+@media (max-width:600px) {
+ .headerimg{
+    background-size: contain;
+    height: 7vw;
+    font-size: 1.2em;
+  }
+  .headerimg .logo{
+    width: 18vw;
+    height: 5vw;
+    position: relative;
+    top: 1vw;
+    left: 10vw;
+  }
+  .headerimg .navbar{
+    display: none;
+  }
+  .headerimg i{
+    display: block;
+    position: absolute;
+    top: 1.1vw;
+    left: 80vw;
+  }
+  .headerimg i:hover{
+    scale: 1.4;
+  }
+  .content-1{
+    width: 80vw;
+    position:relative;
+    top: 5vw;
+    left: 8vw;
+    line-height: 12vw;
+    font-size: 1.3rem;
+  }
+  .girlimg{
+    width: 75vw;
+    height: 75vw;
+    position: relative;
+    top: 15vw;
+    left: 15vw;
+  }
+  .services{
+    width: 95vw;
+    position:relative;
+    top: 30vw;
+    left: 1vw;
+    font-size: 1.2rem;
+    text-align: center; 
+  }
+  .cards{
+    position: relative;
+    font-size: 1rem;
+    top: 20vw;
+    left: 10vw;
+    width: 80vw;
+    height: 90vh;
+    flex-wrap: wrap;
+  }
+  .cards .cardone{
+    width: 80vw;
+    height: 40vw;
+    position: relative;
+    top: 20vw;
+  }
+  .cards .cardone .cardoneimg{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 30vw;
+  }
+  .cards .cardtwo{
+    width: 80vw;
+    height: 40vw;
+    position: relative;
+    top: 20vw;
+  }
+  .cards .cardtwo .cardtwoimg{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 32vw;
+  }
+  .cards .cardthree{
+    width: 80vw;
+    height: 40vw;
+    position: relative;
+    top: 20vw;
+  }
+  .cards .cardthree .cardthreeimg{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 32vw;
+  }
+  .cards .cardfour{
+    width: 80vw;
+    height: 40vw;
+    position: relative;
+    top: 20vw;
+  }
+  .cards .cardfour .cardfourimg{
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+    left: 32vw;
+  }
+  .teengola{
+    position: relative;
+    top: 35vw;
+    left: 46vw;
+  }
+  
+
+  .dogola{
+    position: relative;
+    top: 53vw;
+    left: 1vw;
+    height: 25vw;
+  }
+  .dogolatwo{
+    position: relative;
+    height: 25vw;
+    top: 53vw;
+    left: 69vw;
+  }
+  .contentpagetwo{
+    font-size: 1.2rem;
+    width: 100vw;
+    position: relative;
+    top: 50vw;
+  }
+ 
+  .coursedisc{
+    position: relative;
+    top: 60vw;
+    left: 12vw;
+    clear: both;
+  }
+  .coursedisc h3{
+     width: 65vw;
+     height:1vw;
+     padding: 20px;
+     padding-top: 10px;
+  }
+ 
+  .courseimg {
+    width: 40vw;
+    height: 50vw;
+    position: relative;
+    top: 120vw;
+    left: 12vw;
+  }
+  .courseimg .courseimgg{
+    height: 80vw;
+    width: 80vw;
+  }
+  
+  .price{
+    position: relative;
+    width: 20vw;
+    top: 73vw;
+    left: 15vw;
+  }
+
+  .mindisc{
+    position: relative;
+    font-size: .9rem;
+    top: 160vw;
+    left: 8vw;
+    line-height: 6vw;
+    width: 90vw;
+    height: 68vw;
+  }
+   
+  .gradientimg{
+    height: 70vw;
+    width: 100vw;
+    position: relative;
+    top: 170vw;
+  }
+  .gradientimg .gradiimg{
+    background-size: cover;
+    width: 100vw;
+    height: 70vw;
+  }
+  .imgingradient{
+    height: 40vw;
+    width: 40vw;
+    position: relative;
+    top: -55vw;
+    left: 5vw;
+  }
+  .imgingradient .imgten{
+    background-size: contain;
+    height: 40vw;
+    width: 40vw;
+  }
+  .gradientimg .mincontentone{
+    width: 48vw;
+    position: relative;
+    right: 190px;
+    left: 50vw;
+    top: -100vw;
+    line-height: 2.5vh;
+    font-size: .7rem;
+  } 
+  
+  .thirdpageimg{
+    height: 45vw;
+    width: 100vw;
+    position: relative;
+    top: 170vw;
+  }
+  .thirdpageimg .testimg{
+   background-size: cover;
+   height: 45vw;
+   width: 100vw;
+  }
+  .thirdpage{
+    font-size: 1.2rem;
+    position: relative;
+    left: 0vw;
+    top: 170vw;
+    width: 100vw;
+  }
+  .teencontainer{
+    width: 100vw;
+    height: 120vw;
+    font-size: 1rem;
+    position: relative;
+    top: 193vw;
+    left: 0vw;
+    flex-direction: column;
+    align-items: center;
+  }
+  .teencontainer .containerone{
+    width: 88vw;
+    height: 32vw;
+    line-height: 8vw;
+  }
+  .teencontainer .containerone .quoteimg1{
+    height: 15vw;
+    width: 15vw;
+    position: relative;
+    top: -17vw;
+    left: 70vw;
+  }
+  .teencontainer .containertwo{
+    width: 88vw;
+    height: 32vw;
+    line-height: 8vw;
+  }
+  .teencontainer .containertwo .quoteimg2{
+    height: 15vw;
+    width: 15vw;
+    position: relative;
+    top: -17vw;
+    left: 70vw;
+  }
+  .teencontainer .containerthree{
+    width: 88vw;
+    height: 32vw;
+    line-height: 8vw;
+  }
+  .teencontainer .containerthree .quoteimg3{
+    height: 15vw;
+    width: 15vw;
+    position: relative;
+    top: -17vw;
+    left: 70vw;
+  }
+
+  .teengolamain{
+    position: relative;
+    top: 200vw;
+    width: 5vw;
+    height: 1vw;
+    left: 45vw;
+  }
+  .thirdpageimgtwo{
+    height: 45vw;
+    display: block;
+    position: relative;
+    left: 0vw;
+    top: 180vw;
+    width: 100vw;
+  }
+  .thirdpageimgtwo .testimgtwo{
+     background-size: cover;
+     height: 45vw;
+     width: 100vw;
+  }
+  .footerimg{
+    width: 0vw;
+    height: 0vw;
+    position: relative;
+    top: 2vw;
+    left: -2vw;
+  }
+  .footerimg .footerleftimg{
+    background-size: contain;
+    height: 0vw;
+    width: 0vw;
+    position: relative;
+    left: -20px;
+    display: hidden;
+  }
+  .maps{
+    position: relative;
+    top: 190vw;
+    width: 90vw;
+    left: 1vw;
+    float: left;
+  }
+  .maps iframe{
+    width: 98vw;
+    height: 65vw;
+    border-radius: 10px;
+  }
+  
+  .footer{
+    height: 50vw;
+    width: 100vw;
+    position: relative;
+    top: 355vw;
+    bottom: 0px;
+    
+  }
+  .footer .footerlastimg{
+    width: 100vw;
+    height: 50vw;
+  }
+  .lastsepehle{
+    width: 98vw;
+  }
+  .lastsepehle .lastdiv{
+    width: 97vw;
+    height: 150vw;
+    position: relative;
+    top: 270vw;
+    left: 1vw;
+  }
+  .lastsepehle .lastdiv .littlecontonelast{
+    position: relative;
+    line-height: 7vw;
+    left: 2vw;
+    top: -75vw;
+  }
+  .forminp{
+    position: relative;
+    left: 2vw;
+    top: -35vw;
+    line-height: 18vw;
+  }
+  .icons {
+    position: relative;
+    top: 272vw;
+    left: 5vw;
+    width: 90vw;
+    font-size: 10px;
+    height: 7vw;
+  }
+} 
